@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\libraries\DELM\delm;C:\Program Files\progects\Nechto\Nechto</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\libraries\DELM\delm;C:\Program Files\progects\Nechto\Nechto</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,10 +119,14 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\libraries\Include;C:\libraries\DELM\delm;C:\Program Files\progects\Nechto\Nechto;C:\libraries\Include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\libraries\DELM\x64;C:\Program Files\progects\Nechto\x64;C:\libraries\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;OpenGL32.Lib;Debug\delm.lib;%(AdditionalDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -132,16 +138,44 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\libraries\Include;C:\libraries\DELM\delm;C:\Program Files\progects\Nechto\Nechto;C:\libraries\Include\GLAD;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\libraries\DELM\x64;C:\Program Files\progects\Nechto\x64;C:\libraries\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;OpenGL32.Lib;Release\delm.lib;%(AdditionalDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\libraries\Include\GLAD\glad.c" />
+    <ClCompile Include="loader.ixx" />
+    <ClCompile Include="GLFWsettings.ixx" />
+    <ClCompile Include="image_loader.cpp" />
+    <ClCompile Include="NechtorCoreLoad.cppm" />
+    <ClCompile Include="startLoader.ixx" />
+    <ClCompile Include="NechtorCore.ixx" />
+    <ClCompile Include="NRwindow.ixx" />
+    <ClCompile Include="GUIelement.ixx" />
     <ClCompile Include="MainFail.cppm" />
+    <ClCompile Include="nereventer.ixx" />
+    <ClCompile Include="NRevent.ixx" />
+    <ClCompile Include="Shader.ixx" />
+    <ClCompile Include="sprite.ixx" />
+    <ClCompile Include="stringOp.ixx" />
+    <ClCompile Include="Texture.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\x64\Debug\FShader.txt" />
+    <Text Include="..\x64\Debug\VShader.txt" />
+    <Text Include="ftGUIshader.txt" />
+    <Text Include="vtGUIshader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image_loader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,10 +13,86 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{f7bda653-0dfb-4818-8825-f263f2d4d874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI\element">
+      <UniqueIdentifier>{3261a57d-53e4-46d4-8e10-274f2db6f710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\event">
+      <UniqueIdentifier>{d9a7ae5d-43e7-4adc-a8f5-930f2c978ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\savlo">
+      <UniqueIdentifier>{8438d34f-dcfd-4206-a04b-3fbdcb85adf3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFail.cppm">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="NRwindow.ixx">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWsettings.ixx">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libraries\Include\GLAD\glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.ixx">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="image_loader.cpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.ixx">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIelement.ixx">
+      <Filter>Исходные файлы\GUI\element</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.ixx">
+      <Filter>Исходные файлы\GUI\element</Filter>
+    </ClCompile>
+    <ClCompile Include="NechtorCore.ixx">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NRevent.ixx">
+      <Filter>Исходные файлы\event</Filter>
+    </ClCompile>
+    <ClCompile Include="nereventer.ixx">
+      <Filter>Исходные файлы\event</Filter>
+    </ClCompile>
+    <ClCompile Include="startLoader.ixx">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NechtorCoreLoad.cppm">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.ixx">
+      <Filter>Исходные файлы\savlo</Filter>
+    </ClCompile>
+    <ClCompile Include="stringOp.ixx">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\x64\Debug\FShader.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="..\x64\Debug\VShader.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="vtGUIshader.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="ftGUIshader.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image_loader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

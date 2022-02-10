@@ -1,0 +1,16 @@
+console:
+loadstart;
+
+texturePath:
+textures/;
+shaderPath:
+shaders/;
+shader:
+sprite, vtGUIshader.txt, ftGUIshader.txt;
+texture:
+moose, moose.jpg;
+kb, kb.jpg;
+wood, wood.jpg;
+notFound, smiley.png;
+console:
+loadend;
