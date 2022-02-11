@@ -75,6 +75,9 @@
     <ClCompile Include="stringOp.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="rectangleShape.ixx">
+      <Filter>Исходные файлы\GUI\element</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\x64\Debug\FShader.txt">

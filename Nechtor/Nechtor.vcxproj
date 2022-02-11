@@ -156,6 +156,7 @@
     <ClCompile Include="GLFWsettings.ixx" />
     <ClCompile Include="image_loader.cpp" />
     <ClCompile Include="NechtorCoreLoad.cppm" />
+    <ClCompile Include="rectangleShape.ixx" />
     <ClCompile Include="startLoader.ixx" />
     <ClCompile Include="NechtorCore.ixx" />
     <ClCompile Include="NRwindow.ixx" />
