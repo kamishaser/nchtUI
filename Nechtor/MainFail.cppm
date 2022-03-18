@@ -1,16 +1,8 @@
 import <string>;
 import <iostream>;
 import <fstream>;
-import "GLM/glm.hpp";
-import <GLM/gtc/matrix_transform.hpp>;
-import <GLM/gtc/type_ptr.hpp>;
+import <SFML/Graphics.hpp>;
 import NechtorCore;
-
-import "GLFW/glfw3.h";
-import "glad/glad.h";
-
-import Shader;
-import Texture;
 
 void processInput(GLFWwindow* window)
 {

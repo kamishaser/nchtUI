@@ -1,9 +1,7 @@
 export module NechtorCore;
 import NRwindow;
 import nereventer;
-import "GLFW/glfw3.h";
-import "glad/glad.h";
-import "GLM/glm.hpp";
+import <SFML/Graphics.hpp>;
 import <vector>;
 import <memory>;
 import <string>;
@@ -33,8 +31,8 @@ public:
 	{
 		window = std::make_unique<NRwindow>(1000, 1000);
 		startLoad();
-		background = make_shared<sprite>(background, 0, 0, glm::vec2(0.0f, 0.0f), glm::vec2(2.0f, 2.0f), textures.getID("notFound"));
-		background->parPointPos = glm::vec2(-1.0f, 1.0f);
+		background = make_shared<sprite>(background, 0, 0, sf::Vector2f(0.0f, 0.0f), sf::Vector2f(2.0f, 2.0f), textures.getID("notFound"));
+		background->parPointPos = sf::Vector2f(-1.0f, 1.0f);
 		window->insert(background);
 	}
 	bool update()

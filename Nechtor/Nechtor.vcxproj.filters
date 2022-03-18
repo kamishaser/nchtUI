@@ -19,12 +19,6 @@
     <Filter Include="Исходные файлы\GUI\element">
       <UniqueIdentifier>{3261a57d-53e4-46d4-8e10-274f2db6f710}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\event">
-      <UniqueIdentifier>{d9a7ae5d-43e7-4adc-a8f5-930f2c978ac4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\savlo">
-      <UniqueIdentifier>{8438d34f-dcfd-4206-a04b-3fbdcb85adf3}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFail.cppm">
@@ -33,20 +27,8 @@
     <ClCompile Include="NRwindow.ixx">
       <Filter>Исходные файлы\GUI</Filter>
     </ClCompile>
-    <ClCompile Include="GLFWsettings.ixx">
-      <Filter>Исходные файлы\GUI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\libraries\Include\GLAD\glad.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Shader.ixx">
-      <Filter>Исходные файлы\GUI</Filter>
-    </ClCompile>
     <ClCompile Include="image_loader.cpp">
       <Filter>Файлы заголовков</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.ixx">
-      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="GUIelement.ixx">
       <Filter>Исходные файлы\GUI\element</Filter>
@@ -57,26 +39,20 @@
     <ClCompile Include="NechtorCore.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="NRevent.ixx">
-      <Filter>Исходные файлы\event</Filter>
-    </ClCompile>
-    <ClCompile Include="nereventer.ixx">
-      <Filter>Исходные файлы\event</Filter>
-    </ClCompile>
     <ClCompile Include="startLoader.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="NechtorCoreLoad.cppm">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="loader.ixx">
-      <Filter>Исходные файлы\savlo</Filter>
-    </ClCompile>
     <ClCompile Include="stringOp.ixx">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="rectangleShape.ixx">
-      <Filter>Исходные файлы\GUI\element</Filter>
+    <ClCompile Include="moVector.ixx">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.ixx">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

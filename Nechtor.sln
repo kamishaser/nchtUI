@@ -4,17 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32104.313
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nechtor", "Nechtor\Nechtor.vcxproj", "{5A29E762-85AF-4FEC-A55F-1297FCFB487C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657} = {3CBAFAA0-09E4-4F6E-B871-DD5153143657}
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7} = {F13398E3-0E53-448E-8F2A-9665C5891CB7}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nechto", "..\Nechto\Nechto\Nechto.vcxproj", "{3CBAFAA0-09E4-4F6E-B871-DD5153143657}"
-	ProjectSection(ProjectDependencies) = postProject
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7} = {F13398E3-0E53-448E-8F2A-9665C5891CB7}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "delm", "..\..\..\libraries\DELM\delm\delm.vcxproj", "{F13398E3-0E53-448E-8F2A-9665C5891CB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,22 +21,6 @@ Global
 		{5A29E762-85AF-4FEC-A55F-1297FCFB487C}.Release|x64.Build.0 = Release|x64
 		{5A29E762-85AF-4FEC-A55F-1297FCFB487C}.Release|x86.ActiveCfg = Release|Win32
 		{5A29E762-85AF-4FEC-A55F-1297FCFB487C}.Release|x86.Build.0 = Release|Win32
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Debug|x64.ActiveCfg = Debug|x64
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Debug|x64.Build.0 = Debug|x64
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Debug|x86.ActiveCfg = Debug|Win32
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Debug|x86.Build.0 = Debug|Win32
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Release|x64.ActiveCfg = Release|x64
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Release|x64.Build.0 = Release|x64
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Release|x86.ActiveCfg = Release|Win32
-		{3CBAFAA0-09E4-4F6E-B871-DD5153143657}.Release|x86.Build.0 = Release|Win32
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Debug|x64.ActiveCfg = Debug|x64
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Debug|x64.Build.0 = Debug|x64
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Debug|x86.ActiveCfg = Debug|Win32
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Debug|x86.Build.0 = Debug|Win32
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Release|x64.ActiveCfg = Release|x64
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Release|x64.Build.0 = Release|x64
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Release|x86.ActiveCfg = Release|Win32
-		{F13398E3-0E53-448E-8F2A-9665C5891CB7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
